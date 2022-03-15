@@ -21,7 +21,7 @@ public class modblocks {
 
 
     private static Block registerBlock(String name,Block  block, ItemGroup group) {
-        registerBlockItem(name block group);
+        registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(Cool_Mod.MOD_ID, name), block);
     }
 
