@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "coolmod:raw_mythril"
+  },
+  "result": "coolmod:mythril_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
