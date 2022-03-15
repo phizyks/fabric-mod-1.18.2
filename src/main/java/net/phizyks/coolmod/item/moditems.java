@@ -11,13 +11,13 @@ import net.phizyks.coolmod.Cool_Mod;
 public class moditems {
 
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
 
     public static final Item RAW_MYTHRIL = registerItem("raw_mythril",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
 
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
 
 
     private static Item registerItem(String name, Item item) {

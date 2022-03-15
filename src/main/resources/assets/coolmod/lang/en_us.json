@@ -1,6 +1,10 @@
 {
-  "item.coolmod.mythril_ingot":   "Mythril Ingot",
-  "item.coolmod.mythril_nugget":  "Mythril Nugget",
-  "item.coolmod.raw_mythril":     "Raw Mythril"
-
+  "item.coolmod.mythril_ingot":             "Mythril Ingot",
+  "item.coolmod.mythril_nugget":            "Mythril Nugget",
+  "item.coolmod.raw_mythril":               "Raw Mythril",
+  "block.coolmod.mythril_block":            "Mythril Block",
+  "block.coolmod.raw_mythril_block":        "Raw Mythril Block",
+  "block.coolmod.netherrack_mythril_ore":   "Netherrack Mythril Ore",
+  "block.coolmod.mythril_ore":              "Mythril Ore",
+  "block.coolmod.deepslate_mythril_ore":              "Deepslate Mythril Ore"
 }

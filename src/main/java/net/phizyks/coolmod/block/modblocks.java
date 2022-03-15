@@ -10,14 +10,25 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phizyks.coolmod.Cool_Mod;
+import net.phizyks.coolmod.item.moditemgroup;
+import net.phizyks.coolmod.item.moditems;
 
 public class modblocks {
 
     public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(200f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(1f).requiresTool()), moditemgroup.MYTHRIL);
 
+    public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(0.5f).requiresTool()), moditemgroup.MYTHRIL);
 
+    public static final Block NETHERRACK_MYTHRIL_ORE = registerBlock("netherrack_mythril_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(0.5f).requiresTool()), moditemgroup.MYTHRIL);
 
+    public static final Block RAW_MYTHRIL_BLOCK = registerBlock("raw_mythril_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(0.5f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(1f).requiresTool()), moditemgroup.MYTHRIL);
 
 
     private static Block registerBlock(String name,Block  block, ItemGroup group) {
