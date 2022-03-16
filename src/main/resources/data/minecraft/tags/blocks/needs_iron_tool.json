@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "coolmod:mythril_block",
+    "coolmod:raw_mythril_block",
+    "coolmod:mythril_ore",
+    "coolmod:deepslate_mythril_ore",
+    "coolmod:netherrack_mythril_ore"
+  ]
+}

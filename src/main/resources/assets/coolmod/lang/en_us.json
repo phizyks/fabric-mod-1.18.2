@@ -2,6 +2,7 @@
   "item.coolmod.mythril_ingot":             "Mythril Ingot",
   "item.coolmod.mythril_nugget":            "Mythril Nugget",
   "item.coolmod.raw_mythril":               "Raw Mythril",
+  "item.coolmod.dowsing_rod":               "Dowsing Rod",
 
   "block.coolmod.mythril_block":            "Mythril Block",
   "block.coolmod.raw_mythril_block":        "Raw Mythril Block",
@@ -9,5 +10,7 @@
   "block.coolmod.mythril_ore":              "Mythril Ore",
   "block.coolmod.deepslate_mythril_ore":    "Deepslate Mythril Ore",
 
-  "itemGroup.coolmod.mythril":              "Mythril Mod"
+  "itemGroup.coolmod.mythril":              "Mythril Mod",
+
+  "item.tutorialmod.dowsing_rod.no_valuables": "No Valubales Found"
 }

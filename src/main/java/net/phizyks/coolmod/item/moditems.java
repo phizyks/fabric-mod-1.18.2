@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phizyks.coolmod.Cool_Mod;
+import net.phizyks.coolmod.item.custom.DowsingRodItem;
 
 
 public class moditems {
@@ -18,6 +19,9 @@ public class moditems {
 
     public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget",
             new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
+
+    public static final Item DOWSING_ROD = registerItem("dowsing_rod",
+            new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
 
 
     private static Item registerItem(String name, Item item) {
