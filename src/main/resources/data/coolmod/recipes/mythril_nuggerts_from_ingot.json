@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "coolmod:mythril_ingot"
+    }
+  ],
+  "result": {
+    "item": "coolmod:mythril_nugget",
+    "count": 9
+  }
+}
