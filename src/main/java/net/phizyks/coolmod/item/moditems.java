@@ -21,7 +21,7 @@ public class moditems {
             new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
 
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
-            new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
+            new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL).maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {

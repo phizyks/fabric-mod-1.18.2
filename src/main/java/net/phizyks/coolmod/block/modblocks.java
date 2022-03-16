@@ -10,6 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phizyks.coolmod.Cool_Mod;
+import net.phizyks.coolmod.block.custom.speedyBlock;
 import net.phizyks.coolmod.item.moditemgroup;
 import net.phizyks.coolmod.item.moditems;
 
@@ -29,6 +30,9 @@ public class modblocks {
 
     public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new speedyBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
 
 
     private static Block registerBlock(String name,Block  block, ItemGroup group) {
