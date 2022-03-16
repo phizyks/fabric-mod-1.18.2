@@ -23,6 +23,9 @@ public class moditems {
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL).maxDamage(32)));
 
+    public static final Item NORMAL_LOOKING_COAL = registerItem("normal_looking_coal",
+            new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Cool_Mod.MOD_ID,name), item);
