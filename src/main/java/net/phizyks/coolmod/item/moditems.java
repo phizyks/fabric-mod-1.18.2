@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phizyks.coolmod.Cool_Mod;
+import net.phizyks.coolmod.item.custom.DolphinInABucketItem;
 import net.phizyks.coolmod.item.custom.DowsingRodItem;
 
 
@@ -24,7 +25,10 @@ public class moditems {
             new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL).maxDamage(32)));
 
     public static final Item NORMAL_LOOKING_COAL = registerItem("normal_looking_coal",
-            new DowsingRodItem(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
+            new Item(new FabricItemSettings().group(moditemgroup.MYTHRIL)));
+
+    public static final Item DOLPHIN_IN_A_BUCKET = registerItem("dolphin_in_a_bucket",
+            new DolphinInABucketItem(new FabricItemSettings().group(moditemgroup.MYTHRIL).group(ItemGroup.FOOD).food(ModFoodComponents.DOLPHIN_IN_A_BUCKET).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item) {

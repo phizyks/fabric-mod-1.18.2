@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/acacia_fence_gate",
+  "textures": {
+    "texture": "coolmod:block/mythril_block"
+  }
+}

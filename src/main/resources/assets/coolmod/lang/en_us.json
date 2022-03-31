@@ -4,6 +4,7 @@
   "item.coolmod.raw_mythril":               "Raw Mythril",
   "item.coolmod.dowsing_rod":               "Dowsing Rod",
   "item.coolmod.normal_looking_coal":       "Normal Looking Coal",
+  "item.coolmod.dolphin_in_a_bucket":       "Dolphin in a Bucket",
 
   "block.coolmod.mythril_block":            "Mythril Block",
   "block.coolmod.raw_mythril_block":        "Raw Mythril Block",
@@ -12,7 +13,21 @@
   "block.coolmod.deepslate_mythril_ore":    "Deepslate Mythril Ore",
   "block.coolmod.speedy_block":             "Speedy Block",
 
+  "block.coolmod.mythril_button":                 "Mythril Button",
+  "block.coolmod.mythril_pressure_plate":                 "Mythril Pressure Plate",
+  "block.coolmod.mythril_fence":                 "Mythril Fence",
+  "block.coolmod.mythril_fence_gate":                 "Mythril Fence Gate",
+  "block.coolmod.mythril_wall":                 "Mythril Wall",
+
+  "blcok.coolmod.kaupen_door":                                  "Kaupen Door",
+  "blcok.coolmod.kaupen_trapdoor":                              "Kaupen Trapdoor",
+  "blcok.coolmod.mythril_slab":                                 "Myhril Slab",
+  "blcok.coolmod.mythril_stairs":                               "Mythril Stairs",
+
   "itemGroup.coolmod.mythril":              "Mythril Mod",
 
-  "item.tutorialmod.dowsing_rod.no_valuables": "No Valubales Found"
+  "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found",
+
+  "item.tutorialmod.dolphin_in_a_bucket.tooltip":       "§4§bDO NOT EAT",
+  "item.tutorialmod.dolphin_in_a_bucket.tooltip.shift": "Please Don't"
 }

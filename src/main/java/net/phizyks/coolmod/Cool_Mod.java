@@ -2,6 +2,7 @@ package net.phizyks.coolmod;
 
 import net.fabricmc.api.ModInitializer;
 import net.phizyks.coolmod.block.modblocks;
+import net.phizyks.coolmod.item.ModFoodComponents;
 import net.phizyks.coolmod.item.moditems;
 import net.phizyks.coolmod.util.ModRegistries;
 import org.slf4j.Logger;
@@ -17,5 +18,6 @@ public class Cool_Mod implements ModInitializer {
 		moditems.registermoditems();
 		modblocks.registerModBlocks();
 		ModRegistries.registerModStuffs();
+
 	}
 }

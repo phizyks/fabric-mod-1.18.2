@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/acacia_pressure_plate",
+  "textures": {
+    "texture": "coolmod:block/mythril_block"
+  }
+}

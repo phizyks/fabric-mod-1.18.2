@@ -2,15 +2,14 @@ package net.phizyks.coolmod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.phizyks.coolmod.Cool_Mod;
-import net.phizyks.coolmod.block.custom.speedyBlock;
+import net.phizyks.coolmod.block.custom.*;
 import net.phizyks.coolmod.item.moditemgroup;
 import net.phizyks.coolmod.item.moditems;
 
@@ -32,7 +31,31 @@ public class modblocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
 
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
-            new speedyBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+            new speedyBlock(FabricBlockSettings.of(Material.METAL).strength(1f)), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_BUTTON = registerBlock("mythril_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().noCollision()), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_PRESSURE_PLATE = registerBlock("mythril_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_FENCE = registerBlock("mythril_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_FENCE_GATE = registerBlock("mythril_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block MYTHRIL_STAIRS = registerBlock("mythril_stairs",
+            new modStairsBlock(modblocks.MYTHRIL_BLOCK.getDefaultState(),FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), moditemgroup.MYTHRIL);
+
+    public static final Block KAUPEN_DOOR = registerBlock("kaupen_door",
+            new modDoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), moditemgroup.MYTHRIL);
+
+    public static final Block KAUPEN_TRAPDOOR = registerBlock("kaupen_trapdoor",
+            new modTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).nonOpaque()), moditemgroup.MYTHRIL);
 
 
     private static Block registerBlock(String name,Block  block, ItemGroup group) {
